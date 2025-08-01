@@ -1,8 +1,9 @@
 name: Run AI Fixer
 
 on:
-  workflow_dispatch:
-
+  push:
+    branches:
+      - main
 jobs:
   auto-heal:
     runs-on: ubuntu-latest
