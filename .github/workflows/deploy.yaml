@@ -12,8 +12,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Run Auto-Healer
-        uses: tharusha-kudagala/ai-auto-healer@v0.1
+      - name: AI Auto-Healer
+        uses: tharusha-kudagala/auto-healer-plugin@v0.1
         with:
           pat: ${{ secrets.GH_PAT }}
           branch: main
